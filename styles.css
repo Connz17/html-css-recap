@@ -1,5 +1,8 @@
-.heading {
+.top-banner {
     color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+    text-decoration: underline purple;
 }
 
 #article-heading {
