@@ -1,16 +1,21 @@
 * {
     margin: 0%;
     padding: 0%;
+    background-color: aquamarine;
 }
 
 .top-banner {
-    padding: 3px 2px;
+    padding: 3px 14px;
     margin: 5px 8px;
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
-    text-decoration: underline purple;
+    }
+
+.top-banner:hover {
+    text-decoration: dashed purple 10px;
 }
+
 
 #list-title {
     margin: 8px;
@@ -19,15 +24,20 @@
     text-transform: capitalize;
     font-size: large;
     text-align: center;
-    text-decoration: dashed gold 4px;
+    text-decoration: underline gold 4px;
     
 }
 
 .list-content {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: lowercase;
+    font-style: italic;
+    }
 
-}
+.list-content:hover {
+        font-size:x-large
+    }
 
 #completed {
     text-decoration: line-through green;
